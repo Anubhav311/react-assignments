@@ -1,5 +1,5 @@
 body {
-  background-image: url("/react-assignments/week-1/calculator/Public/background.jpg");
+  background-image: url("/Public/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -10,9 +10,7 @@ body {
   align-items: center;
 }
 
-
 .container {
-  z-index: 10;
   min-width: 400px;
   height: fit-content;
 
