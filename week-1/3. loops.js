@@ -1,15 +1,15 @@
 /**
  Countdown Loop:
-Write a program that uses a loop to count down from 10 to 1, displaying each number in the console. Once it reaches 1, print "Blast Off!"
+Write a program that uses a loop to count down from 10 to 1, log each number in the console. Once it reaches 1, print "Blast Off!"
 
 Even Number Sum:
-Create a program that calculates and displays the sum of all even numbers from 1 to 50 using a loop.
+Create a program that calculates and logs the sum of all even numbers from 1 to 50 using a loop.
 
 Multiplication Table:
-Generate a multiplication table for a given number (e.g., 7). Use a loop to display the table from 1 to 10.
+Generate a multiplication table for a given number (e.g., 7). Use a loop to display the table from 1 to 10. Just log the result in the table in the console.
 
 Reverse a String:
-Write a function that takes a string as input and uses a loop to reverse it. For example, if given "hello," the function should return "olleh."
+Write a function that takes a string as input and uses a loop to reverse it. For example, if given "hello," the function should return "olleh." and log it
 
 Factorial Calculator:
 Implement a program that calculates and displays the factorial of a given number (e.g., 5). Use a loop to perform the calculation.
