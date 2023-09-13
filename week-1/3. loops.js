@@ -34,6 +34,16 @@ for (let i = 1; i <= 50; i++) {
 }
 console.log("Even Sum [1, 50]: ", sum);
 
+// ------------------------ table 1 - 10
+for (let i = 1; i <= 10; i++) {
+    console.log(`Table of ${i}`);
+    let tableNumber = i;
+    for (let j = 1; j <= 10; j++) {
+        console.log(tableNumber);
+        tableNumber = tableNumber + i;
+    }
+}
+
 // -------------------------------------  Reverse a string
 let originalStr = "Cobra kai";
 function reverseString(str) {
