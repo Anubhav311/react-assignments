@@ -17,3 +17,60 @@ Implement a program that calculates and displays the factorial of a given number
 Prime Number Checker:
 Create a function that checks whether a given number is prime or not. Use a loop to test divisibility by numbers from 2 to the square root of the given number.
  */
+//countdown loop
+for (let i = 10; i>=1 ; i-- ) {
+    if (i == 1) {
+        console.log('blast off')
+        break
+    }
+    console.log(i)
+}
+
+//1 to 50 even sum
+even_sum = 0
+for (i = 1 ; i <= 50 ; i++) {
+    if (i%2 == 0) {
+        even_sum = i + even_sum
+    }
+}
+console.log(even_sum)
+
+//multiplication table(e.g.,7)
+for (i = 1 ; i <= 10 ; i++) {
+    let multiple_7 = 7*i
+    console.log(`7 x ${i} = ${multiple_7}`)
+}
+
+//reverse a string
+function reverse_string(str) {
+    for (var reversedStr = "", i = str.length - 1; i >= 0; i--) {
+        reversedStr += str[i];  
+    }   
+      return reversedStr;
+    
+}
+
+//factorial
+function factorial(num) {
+    for(var multipler = 1 , i = num ; i >= 1 ; i--) {
+        multipler = multipler*i 
+    }
+    console.log(multipler)
+}
+factorial(5)
+
+//prime number
+function check_prime(num) {
+    prime = true
+    for(i = 2; i <= num - 1; i++){
+        if (num % i == 0) {
+            prime = false
+            break
+        }
+    }
+    if (prime == true)
+        console.log(`${num} is prime`)
+    else
+        console.log(`${num} is not prime`)
+}
+check_prime(7)
