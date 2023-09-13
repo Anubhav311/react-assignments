@@ -57,3 +57,27 @@ console.log(`Factorial of ${num}: `, res);
 
 
 // ----------------------------- Prime or Not
+const arr = [2, 5, 8, 10, 27];
+let finalRes = [];
+arr.forEach(num => {
+    let isPrime = true;
+    if (num <= 1) {
+        isPrime = false;
+    } else if (num <= 3) {
+        isPrime = true;
+    } else if (num % 2 === 0 || num % 3 === 0) {
+        isPrime = false;
+    } else {
+        for (let i = 5; i * i <= num; i++) {
+            if (num % i === 0) {
+                isPrime = false;
+                break;
+            }
+        }
+    }
+    finalRes.push({ number: num, status: isPrime ? "Prime" : "Not Prime" });
+});
+
+console.log("Prime or Not? ", finalRes);
+
+
