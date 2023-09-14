@@ -3,6 +3,7 @@ Variable Basics:
 Create variables to store and log information:
  - Declare a variable for your name and console log it.
  - Declare a variable for your age and console log it.
+ 
 
 Explore data types and type conversion:
  - Create variables of different data types (string, number, boolean).
