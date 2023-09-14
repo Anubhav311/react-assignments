@@ -19,3 +19,23 @@ Explore objects:
  - Create an object representing a person with properties like name, age, and country.
  - Write a function that takes a person object as an argument and logs their information.
 */
+
+
+ let myName = "Nagendra Patel";
+ console.log(myName);
+
+
+ let age = 23;
+ console.log(age);
+
+ 
+ const obj ={
+    vill:"varansh",
+    year :2023,
+    color :true,
+ }
+ console.log(obj.vill);
+ console.log(obj.year);
+ console.log(obj.color);
+
+ 
