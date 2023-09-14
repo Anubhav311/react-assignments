@@ -27,13 +27,6 @@ function add(x, y) {
     const num2 = parseFloat(prompt("Enter the second number:"));
     const operation = prompt("Enter an operation (+, -, *, /):");
     
-    // if (operation !== '+' && operation !== '-' && operation !== '*' && operation !== '/') {
-    //   window.alert("Invalid operation!");
-    //   return;
-    // }
-  
-    
-  
     let result;
     switch (operation) {
       case '+':
