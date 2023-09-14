@@ -20,5 +20,3 @@ Explore objects:
  - Create an object representing a person with properties like name, age, and country.
  - Write a function that takes a person object as an argument and logs their information.
 */
-myname ="RAJAN"
-console.log(myname);
