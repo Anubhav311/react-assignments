@@ -19,3 +19,50 @@ Explore objects:
  - Create an object representing a person with properties like name, age, and country.
  - Write a function that takes a person object as an argument and logs their information.
 */
+
+
+//veriable
+const my_name = "lavesh patil"
+const my_age = 16
+console.log(my_name,my_age)
+
+// datatype
+let [a_string, b_int, c_boolean] = ["my_string",45, true];
+
+console.log(a_string,b_int,c_boolean);
+
+console.log(typeof a_string,typeof b_int,typeof c_boolean );
+
+let num_string = Number('297');
+
+console.log(typeof num_string);
+
+//arrays
+const fruits = [ 'apple', 'banana', 'mango', 'grapes'] ;
+console.log(fruits);
+let num_array = [56, 45,76,32,89,65,43,32,1];
+console.log(num_array);
+let greatest_num = 0;
+for (let i in num_array){
+    if (num_array[i]>greatest_num){
+        greatest_num = num_array[i]
+    };
+}
+console.log(greatest_num)
+
+//objects
+person_data = { 1: {name:'lavesh patil', age:16, country: 'india'}, 2: {name: 'steve smith', age: 34 ,country:'australia'}, 3: {name: 'Kieron Pollard', age: 36, country: 'westindes'}}
+function getData(personId) {
+    if (person_data.hasOwnProperty(personId)) {
+        const personInfo = person_data[personId];
+        console.log(`Name: ${personInfo.name}`);
+        console.log(`Age: ${personInfo.age}`);
+        console.log(`Country: ${personInfo.country}`);
+    }
+    else{
+        console.log(`Person with ID ${personId} not found.`)
+    }
+};
+
+getData(3)
+
