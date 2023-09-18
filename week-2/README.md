@@ -6,6 +6,8 @@ This is a team project. Whole team needs to work on this one project. Don't crea
 
 The assignment is to be done in levels. Your score for this assignment will be provided on the basis of levels you complete. You have to complete at least 4 levels. But you can complete more if you want to increase your score.
 
+Each completed level will add 1 point to your team's score.
+
 Following are the levels:
 
 ### Level 1
@@ -39,11 +41,3 @@ Following are the levels:
 ### Level 8
 
 > Add priority levels and do sorting on the basis of priority levels.
-
-### Level 9
-
-> Implement drag and drop for the items. User should be able to drag and drop the items.
-
-### Level 10
-
-> Create another form which user can use to search for the items in the list.
