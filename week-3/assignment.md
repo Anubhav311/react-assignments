@@ -1,12 +1,14 @@
 # ToDo List App
 
-For this assignment you need to create a todo list app. No files have been created for the project. You have to create all the files from scratch. It will help you smoothly transition from DOM manipulation to React.
+For this assignment you need to create a todo list app.
+
+You can only use react.js to complete this assignment. It will help you smoothly transition from DOM manipulation to React. Use vite for creating the react project.
 
 This is a solo project. Each student needs to work on the project separately.
 
 The assignment is to be done in levels. Your score for this assignment will be provided on the basis of levels you complete. You have to complete at least 5 levels. But you can complete more if you want to increase your score.
 
-Each completed level will add 1 point to your team's score.
+Each completed level will add 1 point to your score.
 
 Following are the levels:
 
