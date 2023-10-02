@@ -12,7 +12,11 @@ The assignment is to be done in levels. Your score for this assignment will be p
 
 Each completed level will add 1 point to your score.
 
-Following are the levels. You have to complete minimum four levels to pass the assignment:
+---
+
+---
+
+## Mandatory Levels
 
 ### Level 1
 
