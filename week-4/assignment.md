@@ -1,4 +1,4 @@
-# ToDo List App
+# Landing Page / Website
 
 For this assignment you need to create a simple landing page / website for a shoes selling company, or a watch selling company, or any other product of your choice.
 
