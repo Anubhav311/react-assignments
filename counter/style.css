@@ -1,0 +1,21 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.container{
+    /* background-color: red; */
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+p{
+    font-size: 40px;
+    color: rgb(60, 56, 175);
+}
+button{
+    font-size: 40px;
+    cursor: pointer;
+    position: relative;
+}
