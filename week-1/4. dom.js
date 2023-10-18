@@ -12,3 +12,6 @@ Create counter:
  - implement logic that the number should not go below zero. 
  - give it some styles in css file and link it with html
  */
+
+
+//  - create an HTML page
